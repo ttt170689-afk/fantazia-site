@@ -388,7 +388,7 @@ footer {
   </p>
 
   <div class="hero-btns">
-    <a href="https://github.com/ttt170689-afk/fantazia-rp-3d1/releases/latest/download/FantaziaRP_Installer.exe" class="btn-primary">
+    <a href="#download" class="btn-primary">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
       Скачать игру
     </a>
@@ -511,18 +511,43 @@ footer {
 
 <!-- DOWNLOAD -->
 <div class="download-section" id="download">
-  <div class="dl-box">
-    <div class="section-eyebrow" style="margin-bottom:16px">Бесплатно · Windows</div>
+  <div class="dl-box" style="max-width:780px;">
+    <div class="section-eyebrow" style="margin-bottom:16px">Бесплатно · Windows · Android</div>
     <div class="dl-title">Готов начать?</div>
-    <p class="dl-sub">Скачай лаунчер и окунись в мир Fantazia RP прямо сейчас. Это бесплатно и всегда будет бесплатно.</p>
-    <a href="https://github.com/ttt170689-afk/fantazia-rp-3d1/releases/latest/download/FantaziaRP_Installer.exe" class="btn-primary" style="display:inline-flex;font-size:15px;padding:18px 48px;">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-      Скачать FantaziaRP_Installer.exe
-    </a>
-    <div class="dl-meta">
-      <span><div class="dl-meta-dot"></div> Windows 10/11</span>
+    <p class="dl-sub">Выбери платформу и окунись в мир Fantazia RP прямо сейчас. Это бесплатно и всегда будет бесплатно.</p>
+
+    <div style="display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin-top:32px;">
+
+      <!-- ПК -->
+      <div style="background:rgba(255,255,255,0.04);border:1.5px solid rgba(124,106,247,0.35);border-radius:20px;padding:32px 28px;flex:1;min-width:240px;max-width:320px;display:flex;flex-direction:column;align-items:center;gap:14px;transition:border-color .2s;" onmouseover="this.style.borderColor='rgba(124,106,247,0.7)'" onmouseout="this.style.borderColor='rgba(124,106,247,0.35)'">
+        <div style="font-size:48px;">🖥️</div>
+        <div style="font-size:20px;font-weight:700;color:#fff;letter-spacing:1px;">Windows</div>
+        <div style="font-size:13px;color:rgba(255,255,255,0.5);text-align:center;">Полная версия с лаунчером для Windows 10/11</div>
+        <a href="https://github.com/ttt170689-afk/fantazia-rp-3d1/releases/latest/download/FantaziaRP_Installer.exe" class="btn-primary" style="display:inline-flex;font-size:14px;padding:14px 32px;margin-top:6px;width:100%;justify-content:center;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="margin-right:8px"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Скачать .exe
+        </a>
+        <div style="font-size:11px;color:rgba(255,255,255,0.3);">Windows 10/11 · ~97 MB</div>
+      </div>
+
+      <!-- Android -->
+      <div style="background:rgba(255,255,255,0.04);border:1.5px solid rgba(124,106,247,0.35);border-radius:20px;padding:32px 28px;flex:1;min-width:240px;max-width:320px;display:flex;flex-direction:column;align-items:center;gap:14px;transition:border-color .2s;" onmouseover="this.style.borderColor='rgba(124,106,247,0.7)'" onmouseout="this.style.borderColor='rgba(124,106,247,0.35)'">
+        <div style="font-size:48px;">📱</div>
+        <div style="font-size:20px;font-weight:700;color:#fff;letter-spacing:1px;">Android</div>
+        <div style="font-size:13px;color:rgba(255,255,255,0.5);text-align:center;">Мобильная версия с оптимизацией под телефоны</div>
+        <a href="https://github.com/ttt170689-afk/fantazia-rp-3d1/releases/tag/v1.0" class="btn-primary" style="display:inline-flex;font-size:14px;padding:14px 32px;margin-top:6px;width:100%;justify-content:center;background:linear-gradient(135deg,#00b09b,#096c52);">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="margin-right:8px"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Скачать .apk
+        </a>
+        <div style="font-size:11px;color:rgba(255,255,255,0.3);">Android 7.0+ · ~268 KB</div>
+      </div>
+
+    </div>
+
+    <div class="dl-meta" style="margin-top:28px;">
       <span><div class="dl-meta-dot"></div> Бесплатно</span>
       <span><div class="dl-meta-dot"></div> Версия 1.0</span>
+      <span><div class="dl-meta-dot"></div> Мультиплеер</span>
     </div>
   </div>
 </div>
